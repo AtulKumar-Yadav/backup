@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>progress</title>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .progress {
+            background-color: blue;
+            height: 3px;
+            animation:progress 2s ease-in-out  1;
+        }
+
+        header {
+            background-color: black;
+            height: 100px;
+        }
+
+        main {
+            background-color: red;
+            height: 200px;
+
+        }
+        
+
+        @keyframes progress {
+            0% {
+                width: 0vw;
+            }
+
+            50% {
+                width: 55vw;
+            }
+
+            100% {
+                width: 100vw;
+            }
+        }
+    </style>
+    <div class="progress"></div>
+
+    <header></header>
+    <main></main>
+
+
+</body>
+
+</html>

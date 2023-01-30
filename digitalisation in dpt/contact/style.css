@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(/images/img4.jpg);
+    background-image: linear-gradient(teal);
+    background-color: rgb(6, 164, 164);
+    background-size: cover;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    
+}
+.contact .content h2 {
+    
+    
+    font-size: 36px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.contact .content P {
+    height: 100px;
+    width: 60%;
+    font-weight: 300; 
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.container {
+    width: 70%;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    
+}
+.ContactForm{
+   padding: 20px;
+    width: 55%;
+    box-shadow: 1px 0.5px 2px 1px;
+
+    border-radius: 10px;
+    background-color: #92a8d1;
+
+}
+.inputBox{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.inputBox input[type='text']{
+    border: 1px solid black;
+    padding: 10px;
+    width: 60%;
+    text-underline-offset: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inputBox textarea{
+    padding: 10px;
+    width: 60%;
+   height: 100px;
+   border-radius: 5px;
+}
+.inputBox input[type='submit']{
+      
+      height: 40px;
+      width: 100px;
+      background-color: #034f84;
+      color: white;
+      border-radius: 5px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}

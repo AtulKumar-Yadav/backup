@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+
+<body>
+    <style>
+        .progress {
+            background-color: red;
+            height: 3px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 100px;
+            background-color: black;
+        }
+
+        main {
+            height: 300px;
+            background-color: blue;
+        }
+
+
+
+        .container {
+            width: 600px;
+            height: 650px;
+            background-color: green;
+
+
+        }
+
+
+        .box {
+            height: 400px;
+            width: 300px;
+            background-color: white;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+             animation-iteration-count: 3;
+            animation-direction: alternate-reverse;
+            animation-name: atul;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;  
+
+           
+
+        }
+
+        @keyframes atul {
+            from{
+                width: 300px;
+                height: 300px;
+            }
+
+            to {
+                width: 500px;
+                height: 500px;
+            }
+
+        }
+    </style>
+    
+    <div class="container">
+        <div class="box">
+            <img src="dragon.png" width="200px">
+        </div>
+    </div>
+</body>
+
+</html>

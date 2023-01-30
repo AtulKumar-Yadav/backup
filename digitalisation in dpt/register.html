@@ -1,0 +1,18 @@
+<?php
+$dsa = mysqli_connect("localhost","root","student details");
+if(isset($_post['sumbit'])){
+    $username = $_post['username'];
+    $id = $_post['id'];
+    $email = $_post['email'];
+    $phone_no. = $_post['phone_no'];
+
+    $query = "INSERT INTO 'student'('name','id','email','phone_no') VALUE($username,$id,$email,$phone_no)";
+    $result = mysqli_query($dsa,$query);
+    if($result){
+        echo "data inserted succussfully";
+    }
+    else{
+        echo "Do not inserted"
+    }
+}
+?>
